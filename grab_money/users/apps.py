@@ -1,0 +1,14 @@
+# Django:
+from django.apps import AppConfig
+from django.utils.translation import gettext_lazy as _
+
+
+class UsersConfig(AppConfig):
+    name = "grab_money.users"
+    verbose_name = _("Users")
+
+    def ready(self):
+        try:
+            import grab_money.users.signals  # noqa F401
+        except ImportError:
+            pass

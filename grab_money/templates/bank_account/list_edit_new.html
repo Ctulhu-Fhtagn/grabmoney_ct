@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %} Add New Bank Account {% endblock %}
+
+{% block content %}
+{% crispy bank_account_new bank_account_new.helper %}
+
+{% endblock %}

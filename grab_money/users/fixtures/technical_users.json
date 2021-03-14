@@ -1,0 +1,18 @@
+[
+    {
+        "model": "users.user",
+        "pk": 1,
+        "fields": {
+            "password": "",
+            "is_superuser": true,
+            "username": "technical",
+            "first_name": "",
+            "last_name": "",
+            "email": "technical@technical.com",
+            "is_staff": true,
+            "is_active": true,
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %} Currency {% endblock %}
+
+{% block content %}
+
+  <h3>{{ scale }} {{ currency.full_unit_label }}</h3>
+  <p> </p>
+
+    <div class="flex-container">
+    <div class="row">
+      <div class="col-sm-10">
+        <table class="table table-bordered table-hover">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Rate</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for rate in rates %}
+            <tr>
+              <th scope="row">{{ rate.date }}</th>
+              <td>{{ rate.rate }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    </div>
+{% endblock %}

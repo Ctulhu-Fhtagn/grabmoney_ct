@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %} Category detail {% endblock %}
+
+{% block content %}
+
+<h3>Transactions summary for {{ category.category_name }} </h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Account from</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Date</th>
+            <th scope="col">Description</th>
+            <th scope="col">Edit/Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in transactions %}
+        <tr>
+            <th scope="row">{{ item.id }}</th>
+            <td>{{ item.account_from }}</td>
+            <td>{{ item.amount }}</td>
+            <td>{{ item.date }}</td>
+            <td>{{ item.description }}</td>
+            {% if item.owner == user %}
+            <td>
+                <a class="btn btn-info" href="{% url 'transaction:transaction-edit-with-cat' item.id category.id %}">
+                    <i class="fas fa-edit"></i>
+                    Edit
+                </a>
+                <a class="btn btn-info" href="{% url 'transaction:transaction-delete' item.id %}">
+                    <i class="fas fa-trash"></i>
+                    Delete
+                </a>
+            </td>
+            {% endif %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

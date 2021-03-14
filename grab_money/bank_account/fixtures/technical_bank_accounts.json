@@ -1,0 +1,98 @@
+[
+    {
+        "model": "bank_account.bankaccount",
+        "pk": 1,
+        "fields": {
+            "owner": 1,
+            "name": "Unknown",
+            "number_account": "",
+            "number_card": "",
+            "currency": 1,
+            "type": "Debit",
+            "opening_debit": "0.00",
+            "opening_credit": "0.00",
+            "category": "Bank",
+            "balance": "0.00"
+        }
+    },
+    {
+        "model": "bank_account.bankaccount",
+        "pk": 20,
+        "fields": {
+            "owner": 1,
+            "name": "Transport",
+            "number_account": "",
+            "number_card": "",
+            "currency": 1,
+            "type": "Debit",
+            "opening_debit": "0.00",
+            "opening_credit": "0.00",
+            "category": "Bank",
+            "balance": "0.00"
+        }
+    },
+    {
+        "model": "bank_account.bankaccount",
+        "pk": 21,
+        "fields": {
+            "owner": 1,
+            "name": "Entertainment",
+            "number_account": "",
+            "number_card": "",
+            "currency": 1,
+            "type": "Debit",
+            "opening_debit": "0.00",
+            "opening_credit": "0.00",
+            "category": "Bank",
+            "balance": "0.00"
+        }
+    },
+    {
+        "model": "bank_account.bankaccount",
+        "pk": 22,
+        "fields": {
+            "owner": 1,
+            "name": "Products",
+            "number_account": "",
+            "number_card": "",
+            "currency": 1,
+            "type": "Debit",
+            "opening_debit": "0.00",
+            "opening_credit": "0.00",
+            "category": "Bank",
+            "balance": "0.00"
+        }
+    },
+    {
+        "model": "bank_account.bankaccount",
+        "pk": 23,
+        "fields": {
+            "owner": 1,
+            "name": "Subscription",
+            "number_account": "",
+            "number_card": "",
+            "currency": 1,
+            "type": "Debit",
+            "opening_debit": "0.00",
+            "opening_credit": "0.00",
+            "category": "Bank",
+            "balance": "0.00"
+        }
+    },
+    {
+        "model": "bank_account.bankaccount",
+        "pk": 24,
+        "fields": {
+            "owner": 1,
+            "name": "Clothes",
+            "number_account": "",
+            "number_card": "",
+            "currency": 1,
+            "type": "Debit",
+            "opening_debit": "0.00",
+            "opening_credit": "0.00",
+            "category": "Bank",
+            "balance": "0.00"
+        }
+    }
+]

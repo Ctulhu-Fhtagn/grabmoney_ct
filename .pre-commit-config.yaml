@@ -1,0 +1,40 @@
+exclude: 'docs|node_modules|migrations|.git|.tox'
+default_stages: [commit]
+fail_fast: true
+
+repos:
+
+- hooks:
+  - {id: seed-isort-config, language_version: python3.8}
+  repo: https://github.com/asottile/seed-isort-config
+  rev: v2.1.1
+- hooks:
+  - {id: isort, language_version: python3.8}
+  repo: https://github.com/pre-commit/mirrors-isort
+  rev: v4.3.21
+- hooks:
+  - {id: black, language_version: python3.8}
+  repo: https://github.com/ambv/black
+  rev: 19.10b0
+- hooks:
+  - {id: trailing-whitespace, files: (^|/).+\.(py|html|sh|css|js)$, language_version: python3.8}
+  - {id: end-of-file-fixer, language_version: python3.8}
+  - {id: debug-statements, language_version: python3.8}
+  repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v2.5.0
+# - hooks:
+#   - {id: flake8, additional_dependencies: [flake8-bugbear == 18.8.0], args: ['--config=setup.cfg'], language_version: python3.8}
+#   repo: https://gitlab.com/pycqa/flake8
+#   rev: 3.8.0a2
+- hooks:
+  - {id: pyupgrade, language_version: python3.8}
+  repo: https://github.com/asottile/pyupgrade
+  rev: v2.3.0
+# - hooks:
+#   - additional_dependencies: []
+#     entry: pylint
+#     exclude: "(?x)^(\n    config/.*|\n    docs/.*|\n    requirements/.*\n|\n    .*/tests/.*|\n    .*/migrations/.*|\n)$"
+#     id: pylint
+#     language_version: python3.8
+#   repo: https://github.com/pre-commit/mirrors-pylint.git
+#   rev: v2.4.4

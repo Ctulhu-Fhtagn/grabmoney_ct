@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block additional_javascript %}
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="{% static 'js/account_credit.js' %}"></script>
+{% endblock %}
+
+{% block title %} Account Detail {% endblock %}
+{% block content %}
+
+    <h3>Account '{{ account.name }}' overview</h3>
+    <div class="btn-group" style="margin-top: 50px;">
+            <a href="{% url 'bank_account:bank-account-edit' account.id %}" class="btn btn-info"><i class="fas fa-edit" aria-hidden="true" style="margin-right: 10px;"></i>
+                Edit
+            </a>
+            <a href="{% url 'bank_account:account-delete' account.id %}" class="btn btn-info"><i class="fas fa-trash" style="margin-right: 10px;"></i>
+                Delete
+            </a>
+      </div>
+
+      <div style="font-size: 18px; margin-top: 0px;">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item" style="white-space: pre-wrap;"></li>
+            <li class="list-group-item" style="white-space: pre-wrap;">Name:                {{ account.name }}</li>
+            <li class="list-group-item" style="white-space: pre-wrap;">Balance:            {{ account.balance }}</li>
+            <li class="list-group-item" style="white-space: pre-wrap;">Currency:           {{ account.currency }}</li>
+            <li class="list-group-item" style="white-space: pre-wrap;">Type:                  {{ account.type }}</li>
+            <li class="list-group-item" style="white-space: pre-wrap;">Category:           {{ account.category }}</li>
+            <li class="list-group-item" style="padding-bottom: 0px;">Transaction amount chart graph:
+                <div id="container" style="width: 50%; margin-top: 25px;">
+                    <canvas id="account-credit" data-url="{% url 'money_statistics:account-credit' account.id %}"></canvas>
+                </div>
+
+            </li>
+
+          </ul>
+      </div>
+
+{% endblock %}

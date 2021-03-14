@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %} Category {% endblock %}
+
+{% block content %}
+<style>
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+}
+</style>
+  <h3>Category <a class="btn btn-info" href="{% url 'category:category-create' %}" style="margin-left:20px;">
+    <i class="fas fa-plus" aria-hidden="true"></i>
+    Add new
+    </a></h3>
+  <div class="flex-container">
+    {% for category in categories %}
+      <div class="flex-container border-info rounded alert shadow-lg p-4 hover-effect">
+        <div style="align-self: flex-end;">
+          <h3>{{ category }}</h3>
+        </div>
+        <div>
+          <form action="{% url 'category:category-edit' category.id %}" method="post">{% csrf_token %}
+            <div class="card">
+              <p class="card-text">{{ category.description }}</p>
+            </div>
+
+            <div class="btn-group" style="margin-left: 50px; margin-top: 25px; align-self: flex-end;">
+                <a href="{% url 'category:category-detail' category.id %}" class="btn btn-info"><i class="fa fa-eye" aria-hidden="true"></i>
+                  View
+                </a>
+                {% if category.owner == user %}
+                <a href="{% url 'category:category-edit' category.id %}" class="btn btn-info"><i class="fas fa-edit" aria-hidden="true"></i>
+                  Edit
+                </a>
+                <a class="btn btn-info" href="{% url 'category:category-delete' category.id %}"><i class="fas fa-trash" aria-hidden="true"></i>
+                  Delete
+                </a>
+                {% endif %}
+            </div>
+          </form>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+{% endblock %}

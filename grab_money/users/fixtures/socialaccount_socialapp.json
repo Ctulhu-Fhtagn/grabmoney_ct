@@ -1,0 +1,26 @@
+[
+    {
+        "model": "socialaccount.socialapp", 
+        "pk": 1, 
+        "fields": {
+            "provider": "google", 
+            "name": "Google API", 
+            "client_id": "441040875469-q93hde4uf510290psabu3g6tfjbgk8u5.apps.googleusercontent.com", 
+            "secret": "UnwMxpx9WS1WCYIhg9DZyBjP", 
+            "key": "", 
+            "sites": [1]
+        }
+    }, 
+    {
+        "model": "socialaccount.socialapp", 
+        "pk": 2, 
+        "fields": {
+            "provider": "vk", 
+            "name": "VK API", 
+            "client_id": "7457876", 
+            "secret": "yF393HvHcWzocB2NZTtk", 
+            "key": "", 
+            "sites": [1]
+        }
+    }
+]

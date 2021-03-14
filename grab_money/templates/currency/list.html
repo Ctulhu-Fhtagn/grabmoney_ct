@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %} Currency {% endblock %}
+
+{% block content %}
+
+  <h3>Currency</h3>
+  <p> </p>
+
+  <div class="flex-container">
+
+      <table class="table table-bordered table-hover">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Symbol</th>
+            <th scope="col">Short Unit Label</th>
+            <th scope="col">Full Unit Label</th>
+            <th scope="col">Sub Unit Label</th>
+            <th scope="col">Rounding</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for currency in currencies %}
+          <tr>
+            <th scope="row">{{ currency.id }}</th>
+            <td>{{ currency.symbol }}</td>
+            <td><a class="text-info" href="/currency_rate/{{ currency.short_unit_label }}/">{{ currency.short_unit_label }}</a></td>
+            <td>{{ currency.full_unit_label }}</td>
+            <td>{{ currency.subunit_label }}</td>
+            <td>{{ currency.rounding }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+  </div>
+{% endblock %}

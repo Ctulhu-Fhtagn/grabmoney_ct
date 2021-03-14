@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block additional_javascript %}
+    <script src="{% static 'js/currency_rate_list.js' %}"></script>
+{% endblock %}
+
+{% block title %} Currency {% endblock %}
+
+{% block content %}
+
+<h3>Currency rate - {{ date }} </h3>
+<p> </p>
+
+  <div class="flex-container">
+
+   <div class="row">
+    <div class="col-sm-2">
+        {% block form %}
+
+          {% crispy form form.helper %}
+
+        {% endblock %}
+      </div>
+
+      <div class="col-sm-10">
+        <table class="table table-bordered table-hover">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Short Unit Label</th>
+              <th scope="col">X</th>
+              <th scope="col">Rate</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for rate in rates %}
+            <tr>
+              <th><a class="text-info" href="{% url 'currency_rate:currency-rate-detail' rate.currency_id.short_unit_label %}">{{ rate.currency_id }}</a></th>
+              <td>{{ rate.scale }}</td>
+              <td>{{ rate.rate }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+{% endblock %}

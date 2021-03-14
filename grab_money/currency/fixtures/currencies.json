@@ -1,0 +1,1828 @@
+[
+    {
+        "model": "currency.currency",
+        "pk": 1,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "USD",
+            "short_unit_label": "USD",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 2,
+        "fields": {
+            "full_unit_label": "Bolivar",
+            "subunit_label": "VEF",
+            "short_unit_label": "VEF",
+            "symbol": "Bs.F",
+            "rounding": "0.0001"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 3,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "CAD",
+            "short_unit_label": "CAD",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 4,
+        "fields": {
+            "full_unit_label": "Franc",
+            "subunit_label": "CHF",
+            "short_unit_label": "CHF",
+            "symbol": "CHF",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 5,
+        "fields": {
+            "full_unit_label": "Real",
+            "subunit_label": "BRL",
+            "short_unit_label": "BRL",
+            "symbol": "R$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 6,
+        "fields": {
+            "full_unit_label": "Yuan",
+            "subunit_label": "CNY",
+            "short_unit_label": "CNY",
+            "symbol": "¥",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 7,
+        "fields": {
+            "full_unit_label": "Peso",
+            "subunit_label": "COP",
+            "short_unit_label": "COP",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 8,
+        "fields": {
+            "full_unit_label": "Koruna",
+            "subunit_label": "CZK",
+            "short_unit_label": "CZK",
+            "symbol": "Kč",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 9,
+        "fields": {
+            "full_unit_label": "Krone",
+            "subunit_label": "DKK",
+            "short_unit_label": "DKK",
+            "symbol": "kr",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 10,
+        "fields": {
+            "full_unit_label": "Forint",
+            "subunit_label": "HUF",
+            "short_unit_label": "HUF",
+            "symbol": "Ft",
+            "rounding": "1.00"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 11,
+        "fields": {
+            "full_unit_label": "Rupiah",
+            "subunit_label": "IDR",
+            "short_unit_label": "IDR",
+            "symbol": "Rp",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 12,
+        "fields": {
+            "full_unit_label": "Lats",
+            "subunit_label": "LVL",
+            "short_unit_label": "LVL",
+            "symbol": "Ls",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 13,
+        "fields": {
+            "full_unit_label": "Krone",
+            "subunit_label": "NOK",
+            "short_unit_label": "NOK",
+            "symbol": "kr",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 14,
+        "fields": {
+            "full_unit_label": "Franc",
+            "subunit_label": "XPF",
+            "short_unit_label": "XPF",
+            "symbol": "XPF",
+            "rounding": "1.00"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 15,
+        "fields": {
+            "full_unit_label": "Balboa",
+            "subunit_label": "PAB",
+            "short_unit_label": "PAB",
+            "symbol": "B/.",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 16,
+        "fields": {
+            "full_unit_label": "Zloty",
+            "subunit_label": "PLN",
+            "short_unit_label": "PLN",
+            "symbol": "zł",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 17,
+        "fields": {
+            "full_unit_label": "Krona",
+            "subunit_label": "SEK",
+            "short_unit_label": "SEK",
+            "symbol": "kr",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 18,
+        "fields": {
+            "full_unit_label": "Peso",
+            "subunit_label": "ARS",
+            "short_unit_label": "ARS",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 19,
+        "fields": {
+            "full_unit_label": "Rupees",
+            "subunit_label": "INR",
+            "short_unit_label": "INR",
+            "symbol": "₹",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 20,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "AUD",
+            "short_unit_label": "AUD",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 21,
+        "fields": {
+            "full_unit_label": "Hryvnia",
+            "subunit_label": "UAH",
+            "short_unit_label": "UAH",
+            "symbol": "₴",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 22,
+        "fields": {
+            "full_unit_label": "Dong",
+            "subunit_label": "VND",
+            "short_unit_label": "VND",
+            "symbol": "₫",
+            "rounding": "1.00"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 23,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "HKD",
+            "short_unit_label": "HKD",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 24,
+        "fields": {
+            "full_unit_label": "Yen",
+            "subunit_label": "JPY",
+            "short_unit_label": "JPY",
+            "symbol": "¥",
+            "rounding": "1.00"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 25,
+        "fields": {
+            "full_unit_label": "Lev",
+            "subunit_label": "BGN",
+            "short_unit_label": "BGN",
+            "symbol": "лв",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 26,
+        "fields": {
+            "full_unit_label": "Litas",
+            "subunit_label": "LTL",
+            "short_unit_label": "LTL",
+            "symbol": "Lt",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 27,
+        "fields": {
+            "full_unit_label": "Leu",
+            "subunit_label": "RON",
+            "short_unit_label": "RON",
+            "symbol": "lei",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 28,
+        "fields": {
+            "full_unit_label": "Kuna",
+            "subunit_label": "HRK",
+            "short_unit_label": "HRK",
+            "symbol": "kn",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 29,
+        "fields": {
+            "full_unit_label": "Ruble",
+            "subunit_label": "RUB",
+            "short_unit_label": "RUB",
+            "symbol": "руб",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 30,
+        "fields": {
+            "full_unit_label": "Lira",
+            "subunit_label": "TRY",
+            "short_unit_label": "TRY",
+            "symbol": "₺",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 31,
+        "fields": {
+            "full_unit_label": "Won",
+            "subunit_label": "KRW",
+            "short_unit_label": "KRW",
+            "symbol": "₩",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 32,
+        "fields": {
+            "full_unit_label": "Pesos",
+            "subunit_label": "MXN",
+            "short_unit_label": "MXN",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 33,
+        "fields": {
+            "full_unit_label": "Ringgit",
+            "subunit_label": "MYR",
+            "short_unit_label": "MYR",
+            "symbol": "RM",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 34,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "NZD",
+            "short_unit_label": "NZD",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 35,
+        "fields": {
+            "full_unit_label": "Peso",
+            "subunit_label": "PHP",
+            "short_unit_label": "PHP",
+            "symbol": "Php",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 36,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "SGD",
+            "short_unit_label": "SGD",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 37,
+        "fields": {
+            "full_unit_label": "Rand",
+            "subunit_label": "ZAR",
+            "short_unit_label": "ZAR",
+            "symbol": "R",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 39,
+        "fields": {
+            "full_unit_label": "Colon",
+            "subunit_label": "CRC",
+            "short_unit_label": "CRC",
+            "symbol": "₡",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 40,
+        "fields": {
+            "full_unit_label": "Rupee",
+            "subunit_label": "MUR",
+            "short_unit_label": "MUR",
+            "symbol": "Rs",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 41,
+        "fields": {
+            "full_unit_label": "Franc",
+            "subunit_label": "XOF",
+            "short_unit_label": "XOF",
+            "symbol": "CFA",
+            "rounding": "1"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 42,
+        "fields": {
+            "full_unit_label": "Franc",
+            "subunit_label": "XAF",
+            "short_unit_label": "XAF",
+            "symbol": "FCFA",
+            "rounding": "1"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 43,
+        "fields": {
+            "full_unit_label": "Shilling",
+            "subunit_label": "UGX",
+            "short_unit_label": "UGX",
+            "symbol": "USh",
+            "rounding": "1"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 44,
+        "fields": {
+            "full_unit_label": "Lempira",
+            "subunit_label": "HNL",
+            "short_unit_label": "HNL",
+            "symbol": "L",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 45,
+        "fields": {
+            "full_unit_label": "Peso",
+            "subunit_label": "CLP",
+            "short_unit_label": "CLP",
+            "symbol": "$",
+            "rounding": "1"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 46,
+        "fields": {
+            "full_unit_label": "Peso",
+            "subunit_label": "UYU",
+            "short_unit_label": "UYU",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 47,
+        "fields": {
+            "full_unit_label": "Afghani",
+            "subunit_label": "AFN",
+            "short_unit_label": "AFN",
+            "symbol": "Afs",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 48,
+        "fields": {
+            "full_unit_label": "Kwanza",
+            "subunit_label": "AOA",
+            "short_unit_label": "AOA",
+            "symbol": "Kz",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 49,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "XCD",
+            "short_unit_label": "XCD",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 50,
+        "fields": {
+            "full_unit_label": "Dram",
+            "subunit_label": "AMD",
+            "short_unit_label": "AMD",
+            "symbol": "դր.",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 51,
+        "fields": {
+            "full_unit_label": "Guilder",
+            "subunit_label": "AWG",
+            "short_unit_label": "AWG",
+            "symbol": "Afl.",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 52,
+        "fields": {
+            "full_unit_label": "Manat",
+            "subunit_label": "AZN",
+            "short_unit_label": "AZN",
+            "symbol": "m",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 53,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "BSD",
+            "short_unit_label": "BSD",
+            "symbol": "B$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 54,
+        "fields": {
+            "full_unit_label": "Dinar",
+            "subunit_label": "BHD",
+            "short_unit_label": "BHD",
+            "symbol": "BD",
+            "rounding": "0.001"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 55,
+        "fields": {
+            "full_unit_label": "Taka",
+            "subunit_label": "BDT",
+            "short_unit_label": "BDT",
+            "symbol": "৳",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 56,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "BBD",
+            "short_unit_label": "BBD",
+            "symbol": "Bds$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 57,
+        "fields": {
+            "full_unit_label": "Ruble BYR",
+            "subunit_label": "BYR",
+            "short_unit_label": "BYR",
+            "symbol": "BR",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 58,
+        "fields": {
+            "full_unit_label": "Rubles",
+            "subunit_label": "BYN",
+            "short_unit_label": "BYN",
+            "symbol": "Br",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 59,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "BZD",
+            "short_unit_label": "BZD",
+            "symbol": "BZ$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 60,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "BMD",
+            "short_unit_label": "BMD",
+            "symbol": "BD$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 61,
+        "fields": {
+            "full_unit_label": "Ngultrum",
+            "subunit_label": "BTN",
+            "short_unit_label": "BTN",
+            "symbol": "Nu.",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 62,
+        "fields": {
+            "full_unit_label": "Boliviano",
+            "subunit_label": "BOB",
+            "short_unit_label": "BOB",
+            "symbol": "Bs.",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 63,
+        "fields": {
+            "full_unit_label": "Mark",
+            "subunit_label": "BAM",
+            "short_unit_label": "BAM",
+            "symbol": "KM",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 64,
+        "fields": {
+            "full_unit_label": "Pula",
+            "subunit_label": "BWP",
+            "short_unit_label": "BWP",
+            "symbol": "P",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 65,
+        "fields": {
+            "full_unit_label": "Franc",
+            "subunit_label": "BIF",
+            "short_unit_label": "BIF",
+            "symbol": "FBu",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 66,
+        "fields": {
+            "full_unit_label": "Riel",
+            "subunit_label": "KHR",
+            "short_unit_label": "KHR",
+            "symbol": "៛",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 67,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "KYD",
+            "short_unit_label": "KYD",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 68,
+        "fields": {
+            "full_unit_label": "Franc",
+            "subunit_label": "KMF",
+            "short_unit_label": "KMF",
+            "symbol": "CF",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 69,
+        "fields": {
+            "full_unit_label": "Franc",
+            "subunit_label": "CDF",
+            "short_unit_label": "CDF",
+            "symbol": "Fr",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 70,
+        "fields": {
+            "full_unit_label": "Peso",
+            "subunit_label": "CUP",
+            "short_unit_label": "CUP",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 71,
+        "fields": {
+            "full_unit_label": "Guilder",
+            "subunit_label": "ANG",
+            "short_unit_label": "ANG",
+            "symbol": "ƒ",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 72,
+        "fields": {
+            "full_unit_label": "Euros",
+            "subunit_label": "CYP",
+            "short_unit_label": "CYP",
+            "symbol": "£",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 73,
+        "fields": {
+            "full_unit_label": "Franc",
+            "subunit_label": "DJF",
+            "short_unit_label": "DJF",
+            "symbol": "Fdj",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 74,
+        "fields": {
+            "full_unit_label": "Pesos",
+            "subunit_label": "DOP",
+            "short_unit_label": "DOP",
+            "symbol": "RD$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 75,
+        "fields": {
+            "full_unit_label": "Sucre",
+            "subunit_label": "ECS",
+            "short_unit_label": "ECS",
+            "symbol": "S/.",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 76,
+        "fields": {
+            "full_unit_label": "Pound",
+            "subunit_label": "EGP",
+            "short_unit_label": "EGP",
+            "symbol": "E£",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 77,
+        "fields": {
+            "full_unit_label": "Colones",
+            "subunit_label": "SVC",
+            "short_unit_label": "SVC",
+            "symbol": "¢",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 78,
+        "fields": {
+            "full_unit_label": "Nakfa",
+            "subunit_label": "ERN",
+            "short_unit_label": "ERN",
+            "symbol": "Nfk",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 79,
+        "fields": {
+            "full_unit_label": "Birr",
+            "subunit_label": "ETB",
+            "short_unit_label": "ETB",
+            "symbol": "Br",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 80,
+        "fields": {
+            "full_unit_label": "Pound",
+            "subunit_label": "FKP",
+            "short_unit_label": "FKP",
+            "symbol": "£",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 81,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "FJD",
+            "short_unit_label": "FJD",
+            "symbol": "FJ$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 82,
+        "fields": {
+            "full_unit_label": "Lari",
+            "subunit_label": "GEL",
+            "short_unit_label": "GEL",
+            "symbol": "ლ",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 83,
+        "fields": {
+            "full_unit_label": "Pound",
+            "subunit_label": "GIP",
+            "short_unit_label": "GIP",
+            "symbol": "£",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 84,
+        "fields": {
+            "full_unit_label": "Quetzales",
+            "subunit_label": "QTQ",
+            "short_unit_label": "QTQ",
+            "symbol": "Q",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 85,
+        "fields": {
+            "full_unit_label": "Franc",
+            "subunit_label": "GNF",
+            "short_unit_label": "GNF",
+            "symbol": "FG",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 86,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "GYD",
+            "short_unit_label": "GYD",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 87,
+        "fields": {
+            "full_unit_label": "Gourde",
+            "subunit_label": "HTG",
+            "short_unit_label": "HTG",
+            "symbol": "G",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 88,
+        "fields": {
+            "full_unit_label": "Krona",
+            "subunit_label": "ISK",
+            "short_unit_label": "ISK",
+            "symbol": "kr",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 89,
+        "fields": {
+            "full_unit_label": "Dinar",
+            "subunit_label": "IRR",
+            "short_unit_label": "IRR",
+            "symbol": "﷼",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 90,
+        "fields": {
+            "full_unit_label": "Dinar",
+            "subunit_label": "IQD",
+            "short_unit_label": "IQD",
+            "symbol": "ع.د",
+            "rounding": "0.001"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 91,
+        "fields": {
+            "full_unit_label": "Shekel",
+            "subunit_label": "ILS",
+            "short_unit_label": "ILS",
+            "symbol": "₪",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 92,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "JMD",
+            "short_unit_label": "JMD",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 93,
+        "fields": {
+            "full_unit_label": "Dinar",
+            "subunit_label": "JOD",
+            "short_unit_label": "JOD",
+            "symbol": "د.ا",
+            "rounding": "0.001"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 94,
+        "fields": {
+            "full_unit_label": "Tenge",
+            "subunit_label": "KZT",
+            "short_unit_label": "KZT",
+            "symbol": "лв",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 95,
+        "fields": {
+            "full_unit_label": "Shilling",
+            "subunit_label": "KES",
+            "short_unit_label": "KES",
+            "symbol": "KSh",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 96,
+        "fields": {
+            "full_unit_label": "Dinar",
+            "subunit_label": "KWD",
+            "short_unit_label": "KWD",
+            "symbol": "د.ك",
+            "rounding": "0.001"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 97,
+        "fields": {
+            "full_unit_label": "Som",
+            "subunit_label": "KGS",
+            "short_unit_label": "KGS",
+            "symbol": "лв",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 98,
+        "fields": {
+            "full_unit_label": "Kip",
+            "subunit_label": "LAK",
+            "short_unit_label": "LAK",
+            "symbol": "₭",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 99,
+        "fields": {
+            "full_unit_label": "Pound",
+            "subunit_label": "LBP",
+            "short_unit_label": "LBP",
+            "symbol": "ل.ل",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 100,
+        "fields": {
+            "full_unit_label": "Loti",
+            "subunit_label": "LSL",
+            "short_unit_label": "LSL",
+            "symbol": "L",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 101,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "LRD",
+            "short_unit_label": "LRD",
+            "symbol": "L$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 102,
+        "fields": {
+            "full_unit_label": "Dinar",
+            "subunit_label": "LYD",
+            "short_unit_label": "LYD",
+            "symbol": "ل.د",
+            "rounding": "0.001"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 103,
+        "fields": {
+            "full_unit_label": "Pataca",
+            "subunit_label": "MOP",
+            "short_unit_label": "MOP",
+            "symbol": "MOP$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 104,
+        "fields": {
+            "full_unit_label": "Denar",
+            "subunit_label": "MKD",
+            "short_unit_label": "MKD",
+            "symbol": "ден",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 105,
+        "fields": {
+            "full_unit_label": "Ariary",
+            "subunit_label": "MGA",
+            "short_unit_label": "MGA",
+            "symbol": "Ar",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 106,
+        "fields": {
+            "full_unit_label": "Kwacha",
+            "subunit_label": "MWK",
+            "short_unit_label": "MWK",
+            "symbol": "MK",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 107,
+        "fields": {
+            "full_unit_label": "Rufiyaa",
+            "subunit_label": "MVR",
+            "short_unit_label": "MVR",
+            "symbol": ".ރ",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 108,
+        "fields": {
+            "full_unit_label": "Ouguiya",
+            "subunit_label": "MRO",
+            "short_unit_label": "MRO",
+            "symbol": "UM",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 109,
+        "fields": {
+            "full_unit_label": "Ouguiya",
+            "subunit_label": "MRU",
+            "short_unit_label": "MRU",
+            "symbol": "UM",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 110,
+        "fields": {
+            "full_unit_label": "Leu",
+            "subunit_label": "MDL",
+            "short_unit_label": "MDL",
+            "symbol": "L",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 111,
+        "fields": {
+            "full_unit_label": "Tugrik",
+            "subunit_label": "MNT",
+            "short_unit_label": "MNT",
+            "symbol": "₮",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 112,
+        "fields": {
+            "full_unit_label": "Dirham",
+            "subunit_label": "MAD",
+            "short_unit_label": "MAD",
+            "symbol": "DH",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 113,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "BND",
+            "short_unit_label": "BND",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 114,
+        "fields": {
+            "full_unit_label": "Dinar",
+            "subunit_label": "DZD",
+            "short_unit_label": "DZD",
+            "symbol": "DA",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 115,
+        "fields": {
+            "full_unit_label": "Cedi",
+            "subunit_label": "GHS",
+            "short_unit_label": "GHS",
+            "symbol": "GH¢",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 116,
+        "fields": {
+            "full_unit_label": "Dalasi",
+            "subunit_label": "GMD",
+            "short_unit_label": "GMD",
+            "symbol": "D",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 117,
+        "fields": {
+            "full_unit_label": "Zaire",
+            "subunit_label": "ZRZ",
+            "short_unit_label": "ZRZ",
+            "symbol": "Ƶ",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 118,
+        "fields": {
+            "full_unit_label": "Metical",
+            "subunit_label": "MZN",
+            "short_unit_label": "MZN",
+            "symbol": "MT",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 119,
+        "fields": {
+            "full_unit_label": "Kyat",
+            "subunit_label": "MMK",
+            "short_unit_label": "MMK",
+            "symbol": "K",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 120,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "NAD",
+            "short_unit_label": "NAD",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 121,
+        "fields": {
+            "full_unit_label": "Rupee",
+            "subunit_label": "NPR",
+            "short_unit_label": "NPR",
+            "symbol": "₨",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 122,
+        "fields": {
+            "full_unit_label": "Lek",
+            "subunit_label": "ALL",
+            "short_unit_label": "ALL",
+            "symbol": "L",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 123,
+        "fields": {
+            "full_unit_label": "Cordoba",
+            "subunit_label": "NIO",
+            "short_unit_label": "NIO",
+            "symbol": "C$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 124,
+        "fields": {
+            "full_unit_label": "Naira",
+            "subunit_label": "NGN",
+            "short_unit_label": "NGN",
+            "symbol": "₦",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 125,
+        "fields": {
+            "full_unit_label": "Won",
+            "subunit_label": "KPW",
+            "short_unit_label": "KPW",
+            "symbol": "₩",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 126,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "ZWL",
+            "short_unit_label": "ZWL",
+            "symbol": "Z$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 127,
+        "fields": {
+            "full_unit_label": "Kwacha",
+            "subunit_label": "ZMW",
+            "short_unit_label": "ZMW",
+            "symbol": "ZK",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 128,
+        "fields": {
+            "full_unit_label": "Rial",
+            "subunit_label": "YER",
+            "short_unit_label": "YER",
+            "symbol": "﷼",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 129,
+        "fields": {
+            "full_unit_label": "Euros",
+            "subunit_label": "EUR",
+            "short_unit_label": "EUR",
+            "symbol": "€",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 130,
+        "fields": {
+            "full_unit_label": "Vatu",
+            "subunit_label": "VUV",
+            "short_unit_label": "VUV",
+            "symbol": "VT",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 131,
+        "fields": {
+            "full_unit_label": "Som",
+            "subunit_label": "UZS",
+            "short_unit_label": "UZS",
+            "symbol": "лв",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 132,
+        "fields": {
+            "full_unit_label": "Dirham",
+            "subunit_label": "AED",
+            "short_unit_label": "AED",
+            "symbol": "د.إ",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 133,
+        "fields": {
+            "full_unit_label": "Hryvnia",
+            "subunit_label": "UAG",
+            "short_unit_label": "UAG",
+            "symbol": "₴",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 134,
+        "fields": {
+            "full_unit_label": "Manat",
+            "subunit_label": "TMT",
+            "short_unit_label": "TMT",
+            "symbol": "T",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 135,
+        "fields": {
+            "full_unit_label": "Dinar",
+            "subunit_label": "TND",
+            "short_unit_label": "TND",
+            "symbol": "DT",
+            "rounding": "0.001"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 136,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "TTD",
+            "short_unit_label": "TTD",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 137,
+        "fields": {
+            "full_unit_label": "Paanga",
+            "subunit_label": "TOP",
+            "short_unit_label": "TOP",
+            "symbol": "T$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 138,
+        "fields": {
+            "full_unit_label": "Baht",
+            "subunit_label": "THB",
+            "short_unit_label": "THB",
+            "symbol": "฿",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 139,
+        "fields": {
+            "full_unit_label": "Shilling",
+            "subunit_label": "TZS",
+            "short_unit_label": "TZS",
+            "symbol": "TSh",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 140,
+        "fields": {
+            "full_unit_label": "Somoni",
+            "subunit_label": "TJS",
+            "short_unit_label": "TJS",
+            "symbol": "TJS",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 141,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "TWD",
+            "short_unit_label": "TWD",
+            "symbol": "NT$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 142,
+        "fields": {
+            "full_unit_label": "Pound",
+            "subunit_label": "SYP",
+            "short_unit_label": "SYP",
+            "symbol": "£",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 143,
+        "fields": {
+            "full_unit_label": "Lilangeni",
+            "subunit_label": "SZL",
+            "short_unit_label": "SZL",
+            "symbol": "E",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 144,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "SRD",
+            "short_unit_label": "SRD",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 146,
+        "fields": {
+            "full_unit_label": "Rupee",
+            "subunit_label": "LKR",
+            "short_unit_label": "LKR",
+            "symbol": "Rs",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 147,
+        "fields": {
+            "full_unit_label": "Pounds",
+            "subunit_label": "SSP",
+            "short_unit_label": "SSP",
+            "symbol": "£",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 148,
+        "fields": {
+            "full_unit_label": "Sterling",
+            "subunit_label": "GBP",
+            "short_unit_label": "GBP",
+            "symbol": "£",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 149,
+        "fields": {
+            "full_unit_label": "Shillings",
+            "subunit_label": "SOD",
+            "short_unit_label": "SOD",
+            "symbol": "Sh.",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 150,
+        "fields": {
+            "full_unit_label": "Dollars",
+            "subunit_label": "SBD",
+            "short_unit_label": "SBD",
+            "symbol": "SI$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 151,
+        "fields": {
+            "full_unit_label": "Leone",
+            "subunit_label": "SLL",
+            "short_unit_label": "SLL",
+            "symbol": "Le",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 152,
+        "fields": {
+            "full_unit_label": "Rupee",
+            "subunit_label": "SCR",
+            "short_unit_label": "SCR",
+            "symbol": "SR",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 153,
+        "fields": {
+            "full_unit_label": "Dinar",
+            "subunit_label": "RSD",
+            "short_unit_label": "RSD",
+            "symbol": "din.",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 154,
+        "fields": {
+            "full_unit_label": "Riyal",
+            "subunit_label": "SAR",
+            "short_unit_label": "SAR",
+            "symbol": "SR",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 155,
+        "fields": {
+            "full_unit_label": "Dobra",
+            "subunit_label": "STD",
+            "short_unit_label": "STD",
+            "symbol": "Db",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 156,
+        "fields": {
+            "full_unit_label": "Lira",
+            "subunit_label": "ITL",
+            "short_unit_label": "ITL",
+            "symbol": "₤",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 157,
+        "fields": {
+            "full_unit_label": "Tala",
+            "subunit_label": "WST",
+            "short_unit_label": "WST",
+            "symbol": "WS$",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 158,
+        "fields": {
+            "full_unit_label": "Pound",
+            "subunit_label": "SHP",
+            "short_unit_label": "SHP",
+            "symbol": "£",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 159,
+        "fields": {
+            "full_unit_label": "Franc",
+            "subunit_label": "RWF",
+            "short_unit_label": "RWF",
+            "symbol": "RF",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 160,
+        "fields": {
+            "full_unit_label": "Ruble",
+            "subunit_label": "RUR",
+            "short_unit_label": "RUR",
+            "symbol": "R",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 161,
+        "fields": {
+            "full_unit_label": "Rial",
+            "subunit_label": "QAR",
+            "short_unit_label": "QAR",
+            "symbol": "QR",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 162,
+        "fields": {
+            "full_unit_label": "Zloty",
+            "subunit_label": "PLZ",
+            "short_unit_label": "PLZ",
+            "symbol": "zł",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 163,
+        "fields": {
+            "full_unit_label": "Inti",
+            "subunit_label": "PEN",
+            "short_unit_label": "PEN",
+            "symbol": "S/",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 164,
+        "fields": {
+            "full_unit_label": "Guarani",
+            "subunit_label": "PYG",
+            "short_unit_label": "PYG",
+            "symbol": "₲",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 165,
+        "fields": {
+            "full_unit_label": "Kina",
+            "subunit_label": "PGK",
+            "short_unit_label": "PGK",
+            "symbol": "K",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 166,
+        "fields": {
+            "full_unit_label": "Rupee",
+            "subunit_label": "PKR",
+            "short_unit_label": "PKR",
+            "symbol": "Rs.",
+            "rounding": "0.01"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 167,
+        "fields": {
+            "full_unit_label": "Rial",
+            "subunit_label": "OMR",
+            "short_unit_label": "OMR",
+            "symbol": "ر.ع.",
+            "rounding": "0.001"
+        }
+    },
+    {
+        "model": "currency.currency",
+        "pk": 168,
+        "fields": {
+            "full_unit_label": "Escudo",
+            "subunit_label": "CVE",
+            "short_unit_label": "CVE",
+            "symbol": "$",
+            "rounding": "0.01"
+        }
+    }
+]

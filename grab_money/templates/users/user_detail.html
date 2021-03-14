@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}User: {{ object.username }}{% endblock %}
+
+{% block content %}
+<div class="container">
+
+  <div class="row">
+    <div class="col-sm-12">
+
+      <p style="margin-top: 25px;">You can change information by clicking 'Edit' button.</p>
+      <h2>
+        {% if object.name %}
+          Name: {{ object.name }}
+        {% else %}
+          Name: Anonymous
+        {% endif %}
+      </h2>
+
+
+      <h4 style="margin-top: 25px">Other information:</h4>
+      <p>Username: {{ object.username }}<br>
+      Email:
+        {% if object.email %}
+          {{ object.email }}
+        {% else %}
+          no email connected
+        {% endif %}<br>
+      Age: {{ object.age }}<br>
+      Language:
+      {% if object.language == 'en' %}
+        English
+      {% else %}
+        Русский
+      {% endif %}</p>
+    </div>
+  </div>
+
+{% if object == request.user %}
+<!-- Action buttons -->
+<div class="row">
+
+  <div class="col-sm-12">
+    <a class="btn btn-primary" href="{% url 'users:update' %}" role="button">Edit</a>
+    <a class="btn btn-primary" href="{% url 'account_email' %}" role="button">EMail confirmation</a>
+    <!-- Your Stuff: Custom user template urls -->
+  </div>
+
+</div>
+<!-- End Action buttons -->
+{% endif %}
+
+
+</div>
+{% endblock content %}

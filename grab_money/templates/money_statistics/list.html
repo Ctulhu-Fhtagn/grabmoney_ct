@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block additional_javascript %}
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="{% static 'js/money_statistics.js' %}"></script>
+    <script src="{% static 'js/credit_by_date.js' %}"></script>
+    <script src="{% static 'js/balance_by_date.js' %}"></script>
+    <script src="{% static 'js/debit_credit_report.js' %}"></script>
+{% endblock %}
+
+{% block title %} Statistics {% endblock %}
+
+{% block content %}
+
+    <h3>Statistics</h3>
+    <div class="container">
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col">
+                <canvas id="transaction-amount-chart" data-url="{% url 'money_statistics:transaction-amount-chart' %}"></canvas>
+            </div>
+            <div class="col">
+                <canvas id="credit-by-date" data-url="{% url 'money_statistics:credit-by-date' %}"></canvas>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col">
+                <canvas id="balance-by-date" data-url="{% url 'money_statistics:balance-by-date' %}"></canvas>
+            </div>
+            <div class="col">
+                <a href="{% url 'money_statistics:debit-credit-report' %}">Debit/Credit Report</a>
+                <canvas id="debit-credit-report" data-url="{% url 'money_statistics:debit-credit-report-data' %}"></canvas>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

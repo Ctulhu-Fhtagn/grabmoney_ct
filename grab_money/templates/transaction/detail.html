@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %} Transaction detail {% endblock %}
+
+{% block content %}
+
+<h3>Transaction details</h3>
+<div class="btn-group">
+    {% if transaction.owner == user %}
+    <a class="btn btn-info" href="{% url 'transaction:transaction-edit' id=transaction.id %}"><i class="fas fa-edit"></i>
+        Edit
+    </a>
+    {% endif %}
+    {% if transaction.owner == user %}
+    <a class="btn btn-info" href="{% url 'transaction:transaction-delete' id=transaction.id %}" ><i class="fas fa-trash"></i>
+        Delete
+    </a>
+    {% endif %}
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Date</th>
+            <th scope="col">Account from</th>
+            <th scope="col">Account to</th>
+            <th scope="col">Category</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Description</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">{{ transaction.id }}</th>
+            <td>{{ transaction.date }}</td>
+            <td>{{ transaction.account_from }}</td>
+            <td>{{ transaction.account_to }}</td>
+            <td>{{ transaction.category }}</td>
+            <td>{{ transaction.amount }}</td>
+            <td>{{ transaction.description }}</td>
+        </tr>
+    </tbody>
+</table>
+
+{% endblock %}

@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %} Transactions {% endblock %}
+
+{% block content %}
+
+  <h3>My transactions
+     <a class="btn btn-info" href="{% url 'transaction:transaction-create' %}" ><i class="fas fa-plus aria-hidden='true'" style="margin-right: 10px;"></i>
+     Add new
+     </a>
+     <a class="btn btn-success" href="{% url 'base:upload-transaction-file' %}" ><i class="fas fa-upload aria-hidden='true'" style="margin-right: 10px;"></i>
+     Upload Transactions File
+     </a>
+     <a class="btn btn-warning" href="{% url 'transaction:transaction-unknown-list' %}" ><i class="fas fa-question-circle aria-hidden='true'" style="margin-right: 10px;"></i>
+     Unknown Transactions({{ len_unknown_transactions }})
+     </a>
+   </h3>
+
+    <table id="table_id" class="table table-bordered table-hover">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Date</th>
+          <th scope="col">Account from</th>
+          <th scope="col">Account to</th>
+          <th scope="col">Category</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Description</th>
+          <th scope="col">Actions</th>
+         </tr>
+      </thead>
+      <tbody>
+        {% for item in transactions %}
+		  <tr>
+		        <th scope="row">{{ item.id }}</th>
+		        <td>{{ item.date }}</td>
+		        <td>{{ item.account_from }}</td>
+            <td>{{ item.account_to }}</td>
+            <td>{{ item.category }}</td>
+            <td>{{ item.amount }}</td>
+            <td>{{ item.description }}</td>
+            <td>
+                <a class="btn btn-info" href="{% url 'transaction:transaction-detail' item.id %}" ><i class="fa fa-eye" aria-hidden="true"></i>
+                  View
+                </a>
+                <a class="btn btn-info" href="{% url 'transaction:transaction-edit' item.id %}" ><i class="fas fa-edit"></i>
+                  Edit
+                </a>
+                <a class="btn btn-info" href="{% url 'transaction:transaction-delete' item.id %}"><i class="fas fa-trash"></i>
+                  Delete
+                </a>
+            </td>
+      </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    {% block additional_javascript %}
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/af-2.3.5/b-1.6.2/b-colvis-1.6.2/b-html5-1.6.2/cr-1.5.2/fc-3.3.1/kt-2.5.2/r-2.2.5/rg-1.1.2/rr-1.2.7/sc-2.0.2/sp-1.1.1/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.21/af-2.3.5/b-1.6.2/b-colvis-1.6.2/b-html5-1.6.2/cr-1.5.2/fc-3.3.1/kt-2.5.2/r-2.2.5/rg-1.1.2/rr-1.2.7/sc-2.0.2/sp-1.1.1/datatables.min.js"></script>
+    <script>
+      $(document).ready( function () {
+        $('#table_id').DataTable ( {
+          dom: 'B<"clear">lfrtip',
+          buttons: {
+            name: 'primary',
+            buttons: ['pdf']
+          }}
+        );
+      });
+    </script>
+    {% endblock %}
+
+{% endblock %}

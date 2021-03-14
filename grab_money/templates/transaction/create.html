@@ -1,0 +1,16 @@
+
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %} Transactions {% endblock %}
+
+{% block content %}
+
+  <h3>My transactions</h3>
+
+    <h3> Create </h3>
+
+      {% crispy form form.helper %}
+
+
+{% endblock %}

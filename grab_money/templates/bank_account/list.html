@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block title %} Bank Account {% endblock %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<style>
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+</style>
+</head>
+<h3>Bank accounts <a class="btn btn-info" href="{% url 'bank_account:add-new-bank_account' %}" style="margin-left:20px;">
+    <i class="fas fa-plus" aria-hidden="true"></i>
+    Add new
+    </a>
+</h3>
+<body>
+    <div class="flex-container">
+        {% for item in bank_accounts %}
+        <div class="flex-container border-info rounded alert shadow-lg p-3 hover-effect1">
+                <a href="{% url 'bank_account:account-detail' item.id %}" style="color: black; padding: 20px;">
+                    <h4 class="text-break" >{{item.name}}</h4>
+                </a>
+                <div style="align-self: flex-end;">
+                <h5> Ballance: {{ item.balance}} {{item.currency.short_unit_label}}</h5>
+                </div>
+
+                <div class="btn-group"  style="margin-left: 100px; margin-top: 50px; align-self: flex-end;">
+                <a href="{% url 'bank_account:bank-account-edit' item.id %}" class="btn btn-info">
+                    <i class="fas fa-edit" aria-hidden="true"></i>Edit
+                </a>
+                <a href="{% url 'bank_account:account-delete' item.id %}" class="btn btn-info"><i class="fas fa-trash"></i>
+                Delete
+                </a>
+                </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</body>
+</html>
+
+{% endblock %}

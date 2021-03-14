@@ -1,0 +1,82 @@
+[
+    {
+        "model": "category.category",
+        "pk": 1,
+        "fields": {
+            "category_name": "Unknown",
+            "description": "Technicaal Unknown Category",
+            "mcc_code": "1234",
+            "owner": "1"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 2,
+        "fields": {
+            "category_name": "Transport",
+            "description": "Write your own",
+            "mcc_code": "1234",
+            "owner": "1"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 3,
+        "fields": {
+            "category_name": "Entertainment",
+            "description": "Write your own",
+            "mcc_code": "1235",
+            "owner": "1"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 4,
+        "fields": {
+            "category_name": "Products",
+            "description": "Write your own",
+            "mcc_code": "1236",
+            "owner": "1"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 5,
+        "fields": {
+            "category_name": "Subscription",
+            "description": "Write your own",
+            "mcc_code": "1237",
+            "owner": "1"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 6,
+        "fields": {
+            "category_name": "Clothes",
+            "description": "Write your own",
+            "mcc_code": "1238",
+            "owner": "1"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 7,
+        "fields": {
+            "category_name": "Withdraw",
+            "description": "Write your own",
+            "mcc_code": "1234",
+            "owner": "1"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 8,
+        "fields": {
+            "category_name": "Replenishment",
+            "description": "Write your own",
+            "mcc_code": "1234",
+            "owner": "1"
+        }
+    }
+]

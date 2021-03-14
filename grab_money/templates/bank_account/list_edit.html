@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Edit Bank Account{% endblock %}
+
+{% block content %}
+    {% if bank_account %}
+        <div class="alert alert-{{bank_account_type}}" role="alert">
+
+        </div>
+    {% endif %}
+    {% crispy form form.helper %}
+
+{% endblock %}
